@@ -1,0 +1,33 @@
+aside{
+  width: 240px;
+  height: 100vh;
+  background-color: #b0b0b0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+aside h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+aside ul{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+aside li{
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+aside li:hover{
+  background-color: #f0f0f0;
+}
+
+main{
+  padding-left: 240px;
+}
